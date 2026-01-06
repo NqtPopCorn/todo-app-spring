@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <defs/>
+  <!-- Primary shape: circle (diameter 40). -->
+  <g>
+    <circle cx="32" cy="32" r="20" fill="#0A74FF" />
+    <!-- Transformation: add a single strong accent — an abstract check formed from a single white shape (object simplification: todo check + subtle X suggestion) -->
+    <!-- Use two rectangles to form a simplified tick shape (max elements = 3). Aligned to 4px grid. -->
+    <rect x="22" y="30" width="6" height="12" rx="0" fill="#FFFFFF" transform="rotate(-45 25 36)" />
+    <rect x="32" y="26" width="6" height="18" rx="0" fill="#FFFFFF" transform="rotate(45 35 35)" />
+    <!-- Accent dot to suggest 'item' or notification; small circle on grid (x=48,y=20)--> 
+    <circle cx="48" cy="20" r="2" fill="#FFD24D" />
+  </g>
+</svg>
